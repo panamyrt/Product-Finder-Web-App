@@ -1,0 +1,134 @@
+body {
+  background-color: #e6e6e6;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  height: 150px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom-style: ridge;
+}
+
+header ul li{
+  text-decoration: underline;
+  list-style-type: none;
+  margin-right: 40px;
+  color: blue;
+}
+
+header ul li:last-of-type{
+  margin-right: 0px;
+}
+
+
+.logo {
+  width: 250px;
+  height: 58px;
+  margin-left:150px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: auto;
+}
+
+
+.frame1{
+  width: 1200px;
+  height: 400px;
+  margin: auto;
+  margin-top: 25px;
+  display: flex;
+}
+
+
+.image1 {
+  float: right;
+  width: 600px;
+  height: 400px;
+ 
+}
+
+.image23{
+  width: 300px;
+  height: 200px;
+}
+
+
+.frame2 {
+  width: 1200px;
+  height: 400px;
+  margin: auto;
+  margin-top: 25px;
+  display: flex;
+}
+
+.column {
+  width: 25%;
+  height: 400px;
+}
+
+
+
+.row1, .row2 , .row3, .row4{
+  height: 50%;
+  width: 300px;
+}
+
+.row3{
+  padding-top: 170px;
+  padding-left: 150px;
+}
+
+.row4{
+  padding-top: 90px;
+  padding-left: 0px;
+}
+
+
+
+.frame3 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto; 
+  height: 600px;
+  width: 1200px;
+  position: relative; /* Αλλάξτε τη θέση σε σχετική */
+  margin: 40px auto 0;
+}
+
+.frame3 iframe {
+  width: 100%;
+  height: 100%; /* Ή το επιθυμητό ύψος */
+  position: absolute; /* Κάντε το iframe θέση απόλυτη */
+  top: 0; /* Θέση στο πάνω μέρος του γονικού στοιχείου */
+  left: 0; /* Θέση στο αριστερό μέρος του γονικού στοιχείου */
+}
+
+.frame {
+    width: 1200px;
+    height: 4%;
+    display: flex;
+}
+
+footer{
+  margin-top: 25px;
+  height: 100px;
+  border-top-style: ridge;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
